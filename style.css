@@ -1,0 +1,49 @@
+/*
+  Lainelaitos open community web design CSS
+  Copyright 2013 - Lainelaitos
+*/
+
+html {
+  background-color: #000000;
+  background: url('background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  background-image: url('social_logos.png');
+  height: 48px;
+  width: 49px;
+}
+
+.fb {
+  background-position: 49px 0px;
+}
+.fb:hover {
+  background-position: 49px 48px;
+}
+
+.twitter {
+  background-position: 0px 0px; 
+}
+.twitter:hover {
+  background-position: 0px 48px;
+}
+
+.yt {
+  background-position: 98px 0px;
+}
+.yt:hover {
+  background-position: 98px 48px;
+}
+
+
+
